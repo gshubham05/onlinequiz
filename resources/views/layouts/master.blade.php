@@ -46,7 +46,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
 
         <div class="d-flex align-items-center justify-content-between">
-            <a href="index.html" class="logo d-flex align-items-center">
+            <a href="{{ url('/') }}" class="logo d-flex align-items-center">
                 <img src="{{ url('admin/assets/img/logo.png') }}" alt="">
                 <span class="d-none d-lg-block">PrepBook</span>
             </a>
@@ -71,10 +71,10 @@
 
                 <li class="nav-item dropdown">
 
-                    <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                    {{-- <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
                         <i class="bi bi-bell"></i>
                         <span class="badge bg-primary badge-number">4</span>
-                    </a><!-- End Notification Icon -->
+                    </a><!-- End Notification Icon --> --}}
 
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
                         <li class="dropdown-header">
@@ -146,10 +146,10 @@
 
                 <li class="nav-item dropdown">
 
-                    <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+                    {{-- <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
                         <i class="bi bi-chat-left-text"></i>
                         <span class="badge bg-success badge-number">3</span>
-                    </a><!-- End Messages Icon -->
+                    </a><!-- End Messages Icon --> --}}
 
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
                         <li class="dropdown-header">
@@ -280,7 +280,7 @@
         <ul class="sidebar-nav" id="sidebar-nav">
 
             <li class="nav-item">
-                <a class="nav-link " href="{{ url('/home') }}">
+                <a class="nav-link " href="{{ url('/') }}">
                     <i class="bi bi-grid"></i>
                     <span>Dashboard</span>
                 </a>
@@ -299,7 +299,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="components-accordion.html">
+                        <a href="">
                             <i class="bi bi-circle"></i><span>Questions</span>
                         </a>
                     </li>
@@ -309,7 +309,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="components-breadcrumbs.html">
+                        <a href="{{ route('questions.data') }}">
                             <i class="bi bi-circle"></i><span>Question Bank</span>
                         </a>
                     </li>

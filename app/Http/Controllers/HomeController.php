@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use     App\Http\Traits\UserTrait;
 use     App\Models\Category;
 use     Illuminate\Http\Request;
-use     Illuminate\Support\Facades\Redirect;
+// use     Illuminate\Support\Facades\Redirect;
 
 class HomeController extends Controller
 {
@@ -32,8 +32,13 @@ class HomeController extends Controller
     }
     public function success()
     {
-        return view('admin.success');
+        // return view('admin.success');
+        return redirect()->route('success')->with('success', 'Category added successfully.');
     }
+
+
+
+
     public function save(Request $request)
     {
        $data = [
@@ -56,5 +61,8 @@ class HomeController extends Controller
     }
     public function login(){
         return  view('admin.pages-login');
+    }
+    public function questions(){
+        return view('admin.tables-data');
     }
 }

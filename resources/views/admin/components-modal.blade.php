@@ -167,10 +167,10 @@
 
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Modal Sizes</h5>
-              <p>Modals have three optional sizes, available via modifier classes to be placed on a <code>.modal-dialog</code>. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports..</p>
+              <h5 class="card-title">Update-Question</h5>
+              {{-- <p>Modals have three optional sizes, available via modifier classes to be placed on a <code>.modal-dialog</code>. These sizes kick in at certain breakpoints to avoid horizontal scrollbars on narrower viewports..</p> --}}
 
-              <!-- Small Modal -->
+              {{-- <!-- Small Modal -->
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#smallModal">
                 Small Modal
               </button>
@@ -191,9 +191,9 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End Small Modal-->
+              </div><!-- End Small Modal--> --}}
 
-              <!-- Large Modal -->
+              {{-- <!-- Large Modal -->
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal">
                 Large Modal
               </button>
@@ -214,7 +214,7 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End Large Modal-->
+              </div><!-- End Large Modal--> --}}
 
               <!-- Extra Large Modal -->
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ExtralargeModal">
@@ -239,7 +239,7 @@
                 </div>
               </div><!-- End Extra Large Modal-->
 
-              <!-- Full Screen Modal -->
+              {{-- <!-- Full Screen Modal -->
               <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fullscreenModal">
                 Full Screen Modal
               </button>
@@ -260,12 +260,12 @@
                     </div>
                   </div>
                 </div>
-              </div><!-- End Full Screen Modal-->
+              </div><!-- End Full Screen Modal--> --}}
 
             </div>
           </div>
 
-          <div class="card">
+          {{-- <div class="card">
             <div class="card-body">
               <h5 class="card-title">Disabled Animation</h5>
               <p>For modals that simply appear rather than fade in to view, remove the <code>.fade</code> class from your <code>.modal</code> element </p>
@@ -293,7 +293,7 @@
               </div><!-- End Disabled Animation Modal-->
 
             </div>
-          </div>
+          </div> --}}
 
         </div>
       </div>

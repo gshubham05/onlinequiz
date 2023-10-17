@@ -28,10 +28,11 @@ Route::get('/user',[HomeController::class,'details']);
 Route::get('/category',[HomeController::class,'editor'])->name('categorie.editor');
 Route::post('/category/save',[HomeController::class,'save'])->name('category.save');
 // Route::get('/',[HomeController::class,'']->name('');
-Route::get('/success',[HomeController::class,'success']);
+Route::get('/success',[HomeController::class,'success'])->name('success');;
 //Route::get('/pages-login',[HomeController::class,'login'])-name('pages-login');
 Route::get('/error',[HomeController::class,'error'])->name('pages-error-404');
 Route::get('/blank',[HomeController::class,'blank'])->name('pages-blank');
 Route::get('/register',[HomeController::class,'register'])->name('pages-register');
 Route::get('/login',[HomeController::class,'login'])->name('pages-login');
+Route::get('/questions',[HomeController::class,'questions'])->name('questions.data');
 
