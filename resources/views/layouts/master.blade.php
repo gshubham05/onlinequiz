@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -325,16 +326,21 @@
                         </a>
                     </li>
                     <li>
-                        <a href="components-badges.html">
-                            <i class="bi bi-circle"></i><span>Tags</span>
+                        <a href="{{route('questiontype')}}">
+                            <i class="bi bi-circle"></i><span>Question Type</span>
                         </a>
                     </li>
                     <li>
+                        {{-- new added --}}
                         <a href="{{ route('questions.data') }}">
                             <i class="bi bi-circle"></i><span>Questions</span>
                         </a>
                     </li>
-
+                    <li>
+                        <a href="{{ route('import.editor') }}">
+                            <i class="bi bi-circle"></i><span>Import question</span>
+                        </a>
+                    </li>
                 </ul>
 
 

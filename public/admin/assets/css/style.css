@@ -19,6 +19,12 @@ body {
   color: #444444;
 }
 
+.active{
+    background: #A7F3D0;font-size:90%;
+    border-radius: 0.125rem;
+    padding: 0.25rem 0.75rem;
+}
+
 a {
   color: #4154f1;
   text-decoration: none;
@@ -1231,6 +1237,9 @@ h6 {
   font-size: 13px;
   color: #012970;
 }
+<<<<<<< HEAD
 /* ------------------------------------- */
 
 /* ---------------------------------------- */
+=======
+>>>>>>> 160b4af4de0b654cb91184ec241343fc25abe3f3

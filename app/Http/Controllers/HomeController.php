@@ -64,6 +64,15 @@ class HomeController extends Controller
     }
     public function questions(){
         return view('admin.tables-data');
+
+    }
+    public function questiontype(){
+
+        return view('admin.tables-general');
+    }
+    public function importquestion(){
+
+        return view('admin.tables-import');
     }
     public function import_questions(){
         return view('admin.forms-layouts');
