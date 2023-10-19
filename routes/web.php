@@ -35,6 +35,6 @@ Route::get('/blank',[HomeController::class,'blank'])->name('pages-blank');
 Route::get('/register',[HomeController::class,'register'])->name('pages-register');
 Route::get('/login',[HomeController::class,'login'])->name('pages-login');
 Route::get('/questions',[HomeController::class,'questions'])->name('questions.data');
-Route::get('/questiontype',[HomeController::class,'questiontype'])->name('questiontype');
+Route::get('/admin/questiontype',[HomeController::class,'questiontype'])->name('questiontype');
 Route::get('/importquestion',[HomeController::class,'importquestion'])->name('import.editor');
 
