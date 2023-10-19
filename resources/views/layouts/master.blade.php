@@ -320,8 +320,8 @@
                         </a>
                     </li>
                     <li>
-                        <a href="">
-                            <i class="bi bi-circle"></i><span>Questions</span>
+                        <a href="{{ route('import.questions') }}">
+                            <i class="bi bi-circle"></i><span>Questions Type</span>
                         </a>
                     </li>
                     <li>
